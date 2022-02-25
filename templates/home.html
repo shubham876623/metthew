@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+      <h1>Hello</h1>
+      <a href="{% url 'getdata' %}" class="btn btn-outline-primary">Start Script Here</a>
+      <a href="{% url 'get_csv' %}" class="btn btn-outline-danger">Download CSV</a>
+      <a href="{% url 'create_csv' %}" class="btn btn-outline-success">Create-CSV</a>
+{% endblock content %}
